@@ -1,0 +1,12 @@
+.texto-grande{
+  line-height: 1.125;
+  font-size: 64px;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+}
+.texto-medio{
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+}

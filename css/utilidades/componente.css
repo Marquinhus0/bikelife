@@ -1,0 +1,19 @@
+.btn {
+  align-items: center;
+  display: inline-block;
+  padding: 10px 16px;
+  background: #61ff00;
+  border: 1px solid #404c00;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 48px;
+  color: #404c00;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: #62ff00ab;
+  color: #83922e;
+}
