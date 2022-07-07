@@ -1,9 +1,8 @@
 
 
 .introducao-bg {
-  background: url(/bikelife/img/fotos/bicicleta1.jpg) no-repeat;
-  background-size: 100%;
-  height: 680px;
+  background: url(/bikelife/img/fotos/bicicleta1.jpg) no-repeat ;
+  background-size:100% auto ;
   box-sizing: 1200px;
   padding-left: 20px;
   padding-right: 20px;
@@ -12,11 +11,7 @@
 }
 .introducao {
   padding-top: 192px;
-  max-width: 1160px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 .introducao h1 {
   margin-bottom: 32px;
@@ -29,8 +24,6 @@
 @media (max-width: 1400px) {
   .introducao h1 {
     margin-bottom: 20px;
-    line-height: 1.125;
-    font-size: 32px;
   }
   .introducao p {
     font-size: 16px;
@@ -40,7 +33,7 @@
   .btn {
     align-items: center;
     display: inline-block;
-    padding: 5px 10px;
+    padding: 1px 10px;
     background: #61ff00;
     border: 1px solid #404c00;
     border-radius: 16px;
@@ -48,6 +41,7 @@
     font-size: 10px;
     color: #404c00;
     text-transform: uppercase;
+    
   }
   .introducao {
     padding-top: 100px;
@@ -66,6 +60,7 @@
     font-size: 5px;
     color: #ffffff;
     text-transform: uppercase;
+    margin-bottom: 2rem;
   }
   .introducao h1 {
     margin-bottom: 10px;
