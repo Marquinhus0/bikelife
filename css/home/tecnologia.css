@@ -43,3 +43,17 @@
   width: 24px;
   margin-bottom: 8px;
 }
+
+@media (max-width: 800px){
+  .tecnologia{
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-img{
+    display: none;
+  }
+}
+@media (max-width: 600px){
+ .tecnologia-vantagens{
+  flex-direction: column;
+ }
+}
