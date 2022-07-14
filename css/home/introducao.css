@@ -20,6 +20,10 @@
   margin-bottom: 60px;
   max-width: 25ch;
 }
+.introducao a {
+  margin-bottom: 7rem;
+
+}
 
 @media (max-width: 1400px) {
   .introducao h1 {

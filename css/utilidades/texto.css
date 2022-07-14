@@ -29,6 +29,13 @@
   line-height: 1.5;
   text-transform: uppercase;
 }
+.texto-sm-up {
+  font-family: 'Source Sans Pro';
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.75;
+  text-transform: uppercase;
+}
 
 
 .texto-rg-up {
