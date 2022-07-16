@@ -23,6 +23,8 @@
   font-family: "Source Sans Pro";
   font-weight: 700;
   max-width: max-content;
+  border:none;
+  cursor: pointer;
 }
 .btn.secundario{
   background-color: var(--color-c7);
