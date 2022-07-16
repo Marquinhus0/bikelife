@@ -34,19 +34,6 @@
     line-height: 1.125;
     margin-bottom: 20px;
   }
-  .btn {
-    align-items: center;
-    display: inline-block;
-    padding: 1px 10px;
-    background: #61ff00;
-    border: 1px solid #404c00;
-    border-radius: 16px;
-    font-weight: 700;
-    font-size: 10px;
-    color: #404c00;
-    text-transform: uppercase;
-    
-  }
   .introducao {
     padding-top: 100px;
   }
@@ -55,24 +42,13 @@
   .introducao {
     padding-top: 50px;
   }
-  .btn {
-    padding: 1px 1px;
-    background: none;
-    border: none;
-    border-radius: 10px;
-    font-weight: 700;
-    font-size: 5px;
-    color: #ffffff;
-    text-transform: uppercase;
-    margin-bottom: 2rem;
-  }
   .introducao h1 {
     margin-bottom: 10px;
     line-height: 1.125;
-    font-size: 16px;
+    font-size: 1.7rem;
   }
   .introducao p {
-    font-size: 8px;
+    font-size: 1rem;
     line-height: 1.125;
     margin-bottom: 20px;
   }

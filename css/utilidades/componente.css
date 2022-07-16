@@ -18,7 +18,6 @@
   border-radius: 5px;
   font-weight: 700;
   font-size: 20px;
-  
   color: #404c00;
   text-transform: uppercase;
   font-family: "Source Sans Pro";
@@ -49,4 +48,21 @@
 }
 .link:hover{
   color: var(--cor-0);
+}
+
+@media (max-width:800px){
+
+  .btn {
+    align-items: center;
+    display: inline-block;
+    padding: 10px 10px;
+    background: #61ff00;
+    border: 1px solid #404c00;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 10px;
+    color: #404c00;
+    text-transform: uppercase;
+    
+  }
 }

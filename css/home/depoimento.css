@@ -42,4 +42,19 @@
 
     grid-template-columns: 1fr;
   }
+  .depoimento-conteudo p::before{
+    content: '';
+    font-size: 5rem;
+    color: var(--cor-p2);
+    position: absolute;
+    left: -50px;
+    top: -20px;
+  }
+  .depoimento-conteudo p::after{
+    content: '';
+    font-size: 5rem;
+    color: var(--cor-p2);
+    position: absolute;
+    left: 300px;
+}
 }
