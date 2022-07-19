@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="icon" href="./img/favicon/Frame 9.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@1,900&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+  <meta name="description" content="Termos e condições">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bikelife - Bicicletas eletricas.</title>
+</head>
+
+<body id="orcamento">
+  <header class="header-bg">
+    <div class="header">
+      <a href="./index.html"><img src="./img/Bikelife.svg" alt="Bikelife"></a>
+      <nav aria-label="primaria">
+        <ul class="header-menu">
+          <li><a href="./bicicletas.html">Bicicletas</a></li>
+          <li><a href="./servicos.html">Serviços</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="titulo-bg">
+      <div class="titulo container">
+        <p class="texto-rg-up cor-c3">termos e condições</p>
+        <h2 class="texto-sg cor-c0">Nossos termos</h2>
+      </div>
+    </div>
+    <form class="orcamento container" action="./">
+
+      <!-- Produto -->
+        <div class="orcamento-produto">
+          <h2 class="cor-0 texto-sp-up ">Bikelife ou seguro ?</h2>
+
+          <input type="radio" name="tipo" value="bikelife" id="bikelife">
+          <label for="bikelife">Bikelife</label>
+
+          <input type="radio" name="tipo" value="seguro" id="seguro">
+          <label for="seguro">Seguro</label>
+
+          <div class="orcamento-conteudo" id="orcamento-bikelife">
+            <h2 class="cor-0 texto-sp-up">Escolha a sua </h2>
+            <input type="radio" name="produto" value="nimbus" id="nimbus">
+            <label for="nimbus">bl-Nimbus <span>R$1999</span></label>
+            <input type="radio" name="produto" value="far" id="far">
+            <label for="far">bl-far <span>R$1999</span></label>
+            <input type="radio" name="produto" value="vader" id="vader">
+            <label for="vader">bl-vader <span>R$1999</span></label>
+          </div>
+
+          <div class="orcamento-conteudo" id="orcamento-seguro">
+            <h2 class="cor-c0 texto-sp-up">Escolha o seguro</h2>
+            <input type="radio" name="produto" value="prata " id="prata">
+            <label for="prata">Prata<span>R$1999</span></label>
+            <input type="radio" name="produto" value="ouro" id="ouro">
+            <label for="ouro">Ouro<span>R$1999</span></label>
+          </div>
+        </div>
+
+        <!-- Dados -->
+
+        <div class="orcamento-dados form">
+          <h2 class="cor-c4 texto-sp-up col-2">Dados Pessoais</h2>
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+          </div>
+          <div>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" name="sobrenome">
+          </div>
+          <div class="col-2">
+            <label  for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf">
+          </div>
+          <div class="col-2">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@email.com">
+          </div>
+          <h2 class="cor-c4 texto-sp-up col-2">entrega</h2>
+          <div>
+            <label for="cep">CEP</label>
+            <input type="text" id="cep" name="cep">
+          </div>
+          <div>
+            <label for="numero">Numero</label>
+            <input type="text" id="numero" name="numero">
+          </div>
+          <div>
+            <label for="logradouro">Logradouro</label>
+            <input type="text" id="logradouro" name="logradouro">
+          </div>
+          <div>
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" name="bairro">
+          </div>
+          <div>
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade">
+          </div>
+          <div>
+            <label for="estado">Estado</label>
+            <input type="text" id="estado" name="estado">
+          </div>
+          <button class="btn">solicitar orçamento</button>
+        </div>
+    </form>
+  </main>
+
+    <footer class="footer-bg">
+      <div class="footer container">
+        <img src="./img/Bikelife.svg" alt="">
+        <div class="footer-contato">
+          <h3 class="texto-smp cor-0">Contato</h3>
+          <ul class="texto-rp cor-c2">
+            <li><a href="tel:+55219999999">519999 9999</a></li>
+            <li><a href="mailto:contato@bikelife.com">contato@bikelife.com</a></li>
+            <li>Suporte 08h às 18h</li>
+            <li>Rua São Lauro, SP</li>
+          </ul>
+          <div class="footer-redes">
+            <a href="./"><img src="./img/facebook-p.svg" alt=""></a>
+            <a href="./"> <img src="./img/youtube-p.svg" alt=""></a>
+            <a href="./"><img src="./img/instagram-p.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="footer-info">
+          <h3 class="texto-smp cor-0">Informações</h3>
+          <nav>
+            <ul class="texto-rp cor-c2">
+              <li><a href="./bicicletas.html">Bicicletas</a></li>
+              <li><a href="./servicos.html">Serviços</li></a>
+              <li><a href="./termos.html">Termos</li></a>
+            </ul>
+          </nav>
+        </div>
+        <p class="footer-copy texto-rp cor-c4">Alguns direitos reservados a bikelife.</p>
+      </div>
+    </footer>
+</body>
+
+</html>
