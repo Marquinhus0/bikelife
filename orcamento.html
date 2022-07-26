@@ -30,8 +30,8 @@
   <main>
     <div class="titulo-bg">
       <div class="titulo container">
-        <p class="texto-rg-up cor-c3">termos e condições</p>
-        <h2 class="texto-sg cor-c0">Nossos termos</h2>
+        <p class="texto-rg-up cor-c3">Bicicletas e planos</p>
+        <h2 class="texto-sg cor-c0">orcamento</h2>
       </div>
     </div>
     <form class="orcamento container" action="./">
@@ -50,18 +50,46 @@
             <h2 class="cor-0 texto-sp-up">Escolha a sua </h2>
             <input type="radio" name="produto" value="nimbus" id="nimbus">
             <label for="nimbus">bl-Nimbus <span>R$1999</span></label>
+            <div class="orcamento-detalhes">
+              <ul class="texto-rp cor-c5">
+                <li><img src="./img/eletrica.svg" alt="">Motor eletrico</li>
+                <li><img src="./img/carbono.svg" alt="">Fibra de Carbono</li>
+                <li><img src="./img/velocidade.svg" alt="">40 km/h</li>
+                <li><img src="./img/rastreador.svg" alt="">Rastreador</li>
+              </ul>
+              <img src="./img/fotos bike/bicicleta1-1.jpg" alt="">
+            </div>
+
             <input type="radio" name="produto" value="far" id="far">
-            <label for="far">bl-far <span>R$1999</span></label>
+            <label for="far">bl-far <span>R$2999</span></label>
+            <div class="orcamento-detalhes">
+              <ul class="texto-rp cor-c5">
+                <li><img src="./img/eletrica.svg" alt="">Motor eletrico</li>
+                <li><img src="./img/carbono.svg" alt="">Fibra de Carbono</li>
+                <li><img src="./img/velocidade.svg" alt="">50 km/h</li>
+                <li><img src="./img/rastreador.svg" alt="">Rastreador</li>
+              </ul>
+              <img src="./img/fotos bike/bicicleta2-1.jpg" alt="">
+            </div>
             <input type="radio" name="produto" value="vader" id="vader">
-            <label for="vader">bl-vader <span>R$1999</span></label>
+            <label for="vader">bl-vader <span>R$3999</span></label>
+            <div class="orcamento-detalhes">
+              <ul class="texto-rp cor-c5">
+                <li><img src="./img/eletrica.svg" alt="">Motor eletrico</li>
+                <li><img src="./img/carbono.svg" alt="">Fibra de Carbono</li>
+                <li><img src="./img/velocidade.svg" alt="">60 km/h</li>
+                <li><img src="./img/rastreador.svg" alt="">Rastreador</li>
+              </ul>
+              <img src="./img/fotos bike/bicicleta3-1.jpg" alt="">
+            </div>
           </div>
 
           <div class="orcamento-conteudo" id="orcamento-seguro">
             <h2 class="cor-c0 texto-sp-up">Escolha o seguro</h2>
             <input type="radio" name="produto" value="prata " id="prata">
-            <label for="prata">Prata<span>R$1999</span></label>
+            <label for="prata">Prata<span>R$99</span></label>
             <input type="radio" name="produto" value="ouro" id="ouro">
-            <label for="ouro">Ouro<span>R$1999</span></label>
+            <label for="ouro">Ouro<span>R$199</span></label>
           </div>
         </div>
 
@@ -110,7 +138,7 @@
             <label for="estado">Estado</label>
             <input type="text" id="estado" name="estado">
           </div>
-          <button class="btn">solicitar orçamento</button>
+          <button class="btn">Enviar orcamento</button>
         </div>
     </form>
   </main>
@@ -145,6 +173,7 @@
         <p class="footer-copy texto-rp cor-c4">Alguns direitos reservados a bikelife.</p>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
